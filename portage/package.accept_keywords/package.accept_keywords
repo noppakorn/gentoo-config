@@ -1,0 +1,4 @@
+sys-kernel/gentoo-sources ~amd64
+x11-misc/autorandr ~amd64
+app-editors/vscodium ~amd64
+app-editors/neovim ~amd64

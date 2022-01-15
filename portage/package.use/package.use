@@ -1,0 +1,32 @@
+sys-boot/grub mount
+
+>=media-libs/libvpx-1.10.0 postproc
+
+>=media-plugins/alsa-plugins-1.2.2 pulseaudio
+dev-qt/qtwidgets gtk
+
+dev-vcs/git gpg
+
+# required by dev-python/PyQtWebEngine-5.15.4::gentoo
+# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
+# required by www-client/qutebrowser (argument)
+>=dev-python/PyQt5-5.15.4-r1 declarative sql webchannel
+# required by dev-python/PyQtWebEngine-5.15.4::gentoo
+# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
+# required by www-client/qutebrowser (argument)
+>=dev-qt/qtwebengine-5.15.2_p20211216 widgets
+# required by dev-qt/qtwebengine-5.15.2_p20211216::gentoo
+# required by dev-python/PyQtWebEngine-5.15.4::gentoo
+# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
+# required by www-client/qutebrowser (argument)
+>=dev-qt/qtwebchannel-5.15.2-r1 qml
+# required by dev-qt/qtwebengine-5.15.2_p20211216::gentoo
+# required by dev-python/PyQtWebEngine-5.15.4::gentoo
+# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
+# required by www-client/qutebrowser (argument)
+>=sys-libs/zlib-1.2.11-r4 minizip
+# required by dev-python/PyQt5-5.15.4-r1::gentoo[multimedia]
+# required by dev-python/PyQtWebEngine-5.15.4::gentoo
+# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
+# required by www-client/qutebrowser (argument)
+>=dev-qt/qtmultimedia-5.15.2-r2 widgets
