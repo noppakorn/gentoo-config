@@ -2,3 +2,9 @@ sys-kernel/gentoo-sources ~amd64
 x11-misc/autorandr ~amd64
 app-editors/vscodium ~amd64
 app-editors/neovim ~amd64
+media-fonts/fira-mono ~amd64
+x11-terms/alacritty ~amd64
+net-im/zoom ~amd64
+
+www-client/firefox ~amd64
+dev-libs/icu ~amd64

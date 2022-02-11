@@ -1,32 +1,26 @@
 sys-boot/grub mount
+dev-qt/qtwidgets gtk
+dev-vcs/git gpg
+www-client/firefox pulseaudio
+media-sound/spotify pulseaudio
+app-admin/doas persist
 
 >=media-libs/libvpx-1.10.0 postproc
-
 >=media-plugins/alsa-plugins-1.2.2 pulseaudio
-dev-qt/qtwidgets gtk
 
-dev-vcs/git gpg
-
-# required by dev-python/PyQtWebEngine-5.15.4::gentoo
-# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
-# required by www-client/qutebrowser (argument)
->=dev-python/PyQt5-5.15.4-r1 declarative sql webchannel
-# required by dev-python/PyQtWebEngine-5.15.4::gentoo
-# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
-# required by www-client/qutebrowser (argument)
->=dev-qt/qtwebengine-5.15.2_p20211216 widgets
-# required by dev-qt/qtwebengine-5.15.2_p20211216::gentoo
-# required by dev-python/PyQtWebEngine-5.15.4::gentoo
-# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
-# required by www-client/qutebrowser (argument)
->=dev-qt/qtwebchannel-5.15.2-r1 qml
-# required by dev-qt/qtwebengine-5.15.2_p20211216::gentoo
-# required by dev-python/PyQtWebEngine-5.15.4::gentoo
-# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
-# required by www-client/qutebrowser (argument)
+# required by xfce-base/xfce4-panel-4.16.3::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.16.10::gentoo[trash-panel-plugin]
+# required by thunar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+# required by media-libs/mesa-21.3.4::gentoo[video_cards_radeonsi,-video_cards_r200,-video_cards_r100,-video_cards_r300,-video_cards_r600,-video_cards_radeon]
+# required by www-client/firefox-96.0.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.109 video_cards_radeon
+# required by app-text/llpp-33::gentoo
+# required by llpp (argument)
+>=dev-ml/lablgl-1.06-r1 glut
+# required by dev-libs/quazip-1.2::gentoo
+# required by net-im/zoom-5.9.3.1911::gentoo
+# required by net-im/zoom (argument)
 >=sys-libs/zlib-1.2.11-r4 minizip
-# required by dev-python/PyQt5-5.15.4-r1::gentoo[multimedia]
-# required by dev-python/PyQtWebEngine-5.15.4::gentoo
-# required by www-client/qutebrowser-2.4.0::gentoo[python_single_target_python3_9]
-# required by www-client/qutebrowser (argument)
->=dev-qt/qtmultimedia-5.15.2-r2 widgets
