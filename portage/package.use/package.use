@@ -4,6 +4,8 @@ dev-vcs/git gpg
 www-client/firefox pulseaudio
 media-sound/spotify pulseaudio
 app-admin/doas persist
+sys-devel/clang default-compiler-rt default-lld llvm-libunwind
+dev-lang/rust rust-src rustfmt
 
 >=media-libs/libvpx-1.10.0 postproc
 >=media-plugins/alsa-plugins-1.2.2 pulseaudio

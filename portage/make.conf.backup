@@ -16,10 +16,9 @@ PKGDIR="/var/cache/binpkgs"
 # This sets the language of build output to English.
 # Please keep this setting intact when reporting bugs.
 LC_MESSAGES=C
-USE="lz4 xinerama alsa networkmanager pulseaudio -gnome -kde"
+USE="xinerama alsa networkmanager pulseaudio -gnome -kde"
 MAKEOPTS="-j16"
 ACCEPT_LICENSE="-* @FREE @BINARY-REDISTRIBUTABLE"
 GRUB_PLATFORMS="efi-64"
 VIDEO_CARDS="amdgpu radeonsi"
 INPUT_DEVICES="libinput"
-GENTOO_MIRRORS="rsync://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.iij.ad.jp/pub/linux/gentoo/ ftp://ftp.iij.ad.jp/pub/linux/gentoo/"
